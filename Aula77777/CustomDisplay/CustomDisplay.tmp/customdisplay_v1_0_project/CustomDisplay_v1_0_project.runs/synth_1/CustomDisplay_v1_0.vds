@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Jun  5 23:33:20 2021
+# Process ID: 18100
+# Current directory: c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log CustomDisplay_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CustomDisplay_v1_0.tcl
+# Log file: c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.runs/synth_1/CustomDisplay_v1_0.vds
+# Journal file: c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CustomDisplay_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/users/menino/desktop/meu/4ano/2semestre/cr/aula77777/customdisplay/customdisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.cache/ip 
+Command: synth_design -top CustomDisplay_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17088
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 999.418 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CustomDisplay_v1_0' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0.vhd:56]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'CustomDisplay_v1_0_S00_AXI' declared at 'c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:5' bound to instance 'CustomDisplay_v1_0_S00_AXI_inst' of component 'CustomDisplay_v1_0_S00_AXI' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'CustomDisplay_v1_0_S00_AXI' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:93]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:259]
+INFO: [Synth 8-226] default block is never used [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:389]
+INFO: [Synth 8-3491] module 'pulse_generator_1Hz' declared at 'c:/users/menino/desktop/meu/4ano/2semestre/cr/aula77777/customdisplay/customdisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.srcs/sources_1/new/pulse_generator_1Hz.vhd:13' bound to instance 'pulse_gen1hz_inst' of component 'pulse_generator_1Hz' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:423]
+INFO: [Synth 8-638] synthesizing module 'pulse_generator_1Hz' [c:/users/menino/desktop/meu/4ano/2semestre/cr/aula77777/customdisplay/customdisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.srcs/sources_1/new/pulse_generator_1Hz.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'pulse_generator_1Hz' (1#1) [c:/users/menino/desktop/meu/4ano/2semestre/cr/aula77777/customdisplay/customdisplay.tmp/customdisplay_v1_0_project/CustomDisplay_v1_0_project.srcs/sources_1/new/pulse_generator_1Hz.vhd:22]
+INFO: [Synth 8-3491] module 'Nexys4DispDriver' declared at 'c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/Nexys4DispDriver.vhd:34' bound to instance 'nexys4displaydriver_inst' of component 'Nexys4DispDriver' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:437]
+INFO: [Synth 8-638] synthesizing module 'Nexys4DispDriver' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/Nexys4DispDriver.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'default_Hex2Seg' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/hex2seg.vhd:12]
+INFO: [Synth 8-226] default block is never used [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/hex2seg.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'default_Hex2Seg' (2#1) [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/hex2seg.vhd:12]
+ERROR: [Synth 8-5826] no such design unit 'counter3b' in library 'work' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/Nexys4DispDriver.vhd:62]
+ERROR: [Synth 8-285] failed synthesizing module 'Nexys4DispDriver' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/src/Nexys4DispDriver.vhd:45]
+ERROR: [Synth 8-285] failed synthesizing module 'CustomDisplay_v1_0_S00_AXI' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0_S00_AXI.vhd:93]
+ERROR: [Synth 8-285] failed synthesizing module 'CustomDisplay_v1_0' [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0/hdl/CustomDisplay_v1_0.vhd:56]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 999.418 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 1 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  5 23:33:51 2021...

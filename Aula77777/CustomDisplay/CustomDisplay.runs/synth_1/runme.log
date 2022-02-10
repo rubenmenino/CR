@@ -1,0 +1,40 @@
+
+*** Running vivado
+    with args -log mb_design_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source mb_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/ip_repo/CustomDisplay_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.cache/ip 
+Command: synth_design -top mb_design_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11116
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 999.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-2757] this construct is only supported in VHDL 1076-2008 [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.gen/sources_1/bd/mb_design/ipshared/537e/src/Nexys4DispDriver.vhd:70]
+ERROR: [Synth 8-944] 0 definitions of operator "rol" match here [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.gen/sources_1/bd/mb_design/ipshared/537e/src/Nexys4DispDriver.vhd:73]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [c:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula77777/CustomDisplay/CustomDisplay.gen/sources_1/bd/mb_design/ipshared/537e/src/Nexys4DispDriver.vhd:36]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1070.125 ; gain = 70.340
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed May 26 12:00:28 2021...

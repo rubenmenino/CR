@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 30 00:36:42 2021
+# Process ID: 704
+# Current directory: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/part4/part4.runs/synth_1
+# Command line: vivado.exe -log testHex.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source testHex.tcl
+# Log file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/part4/part4.runs/synth_1/testHex.vds
+# Journal file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/part4/part4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source testHex.tcl -notrace

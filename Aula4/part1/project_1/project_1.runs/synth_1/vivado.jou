@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 19 23:16:57 2021
+# Process ID: 1452
+# Current directory: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/part1/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log CounterFSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CounterFSM.tcl
+# Log file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/part1/project_1/project_1.runs/synth_1/CounterFSM.vds
+# Journal file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/part1/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CounterFSM.tcl -notrace

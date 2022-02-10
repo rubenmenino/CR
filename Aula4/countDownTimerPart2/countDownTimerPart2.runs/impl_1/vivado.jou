@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 24 20:05:30 2021
+# Process ID: 18644
+# Current directory: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/countDownTimerPart2/countDownTimerPart2.runs/impl_1
+# Command line: vivado.exe -log Wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Wrapper.tcl -notrace
+# Log file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/countDownTimerPart2/countDownTimerPart2.runs/impl_1/Wrapper.vdi
+# Journal file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula4/countDownTimerPart2/countDownTimerPart2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Wrapper.tcl -notrace

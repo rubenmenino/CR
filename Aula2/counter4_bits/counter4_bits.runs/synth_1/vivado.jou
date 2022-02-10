@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 31 14:32:41 2021
+# Process ID: 9928
+# Current directory: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/counter4_bits/counter4_bits.runs/synth_1
+# Command line: vivado.exe -log wrapperParte1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wrapperParte1.tcl
+# Log file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/counter4_bits/counter4_bits.runs/synth_1/wrapperParte1.vds
+# Journal file: C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula2/counter4_bits/counter4_bits.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source wrapperParte1.tcl -notrace

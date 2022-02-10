@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula1/tutorial/tutorial.srcs/sources_1/imports/Aula1/tutorial.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tutorial'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula1/tutorial/tutorial.srcs/sim_1/imports/Aula1/tutorial_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tutorial_tb'

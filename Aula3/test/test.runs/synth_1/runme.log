@@ -1,0 +1,239 @@
+
+*** Running vivado
+    with args -log wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source wrapper.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source wrapper.tcl -notrace
+Command: synth_design -top wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11884
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'wrapper' [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/wrapper.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'pulseeGenerator' [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/pulseeGenerator.vhd:31]
+	Parameter N bound to: 125000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'pulseeGenerator' (1#1) [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/pulseeGenerator.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'Nexys4DispDriver' [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:36]
+INFO: [Synth 8-3491] module 'hex2seg' declared at 'C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/hex2seg.vhd:6' bound to instance 'u1' of component 'hex2seg' [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'hex2seg' [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/hex2seg.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'hex2seg' (2#1) [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/hex2seg.vhd:13]
+WARNING: [Synth 8-614] signal 'clk_enable' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 's_an' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 'controlDisplay' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 's_seg' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 'controlDecimal' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 's_opposite' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+WARNING: [Synth 8-614] signal 's_idx' is read in the process but is not in the sensitivity list [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'Nexys4DispDriver' (3#1) [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/Nexys4DispDriver.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'wrapper' (4#1) [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/sources_1/new/wrapper.vhd:16]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1000.074 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/constrs_1/imports/CR/Nexys4_Master.xdc]
+Finished Parsing XDC File [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/constrs_1/imports/CR/Nexys4_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.srcs/constrs_1/imports/CR/Nexys4_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1000.074 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   31 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 2     
++---XORs : 
+	   2 Input      8 Bit         XORs := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 9     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:49 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    14|
+|4     |LUT2   |     5|
+|5     |LUT3   |     3|
+|6     |LUT4   |     9|
+|7     |LUT5   |    11|
+|8     |LUT6   |    11|
+|9     |FDRE   |    63|
+|10    |IBUF   |    17|
+|11    |OBUF   |    16|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:48 ; elapsed = 00:00:58 . Memory (MB): peak = 1000.074 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:52 . Memory (MB): peak = 1000.074 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:59 . Memory (MB): peak = 1000.074 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1007.672 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1009.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:11 . Memory (MB): peak = 1009.629 ; gain = 9.555
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Menino/Desktop/MEU/4ano/2semestre/CR/Aula3/test/test.runs/synth_1/wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file wrapper_utilization_synth.rpt -pb wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  8 15:59:01 2021...
